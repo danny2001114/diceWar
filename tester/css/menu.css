@@ -1,0 +1,50 @@
+@font-face {
+    font-family: game;
+    src: url(../fonts/TechnoRaceItalic-eZRWe.otf);
+}
+
+.menu-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+.menu-page menu {
+    width: 50%;
+    height: 23%;
+    display: grid;
+    gap: 5px;
+    
+    /* border: 1px dashed black; */
+}
+
+/* > menu-page > buttons */
+
+.menu-page button {
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    text-align: center;
+    font-family: game, Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    /* background: linear-gradient(#07dbf7 20%, #13e7d6 50%, #3911e9 100%); */
+
+    /* border: 1px solid black; */
+}
+
+.menu-page button:hover {
+    color: white;
+    background-color: #3f3e3e;
+}
+
+.menu-page button:active {
+}
+
+/* > menu-page > menu list */
+
+.menu-page .mode {
+    display: none;
+}

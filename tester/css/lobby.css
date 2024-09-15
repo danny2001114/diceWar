@@ -1,0 +1,15 @@
+.lobby-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    color: white;
+}
+
+.lobby-page > select, .lobby-page > div {
+    width: 30%;
+    height: max-content;
+
+}
